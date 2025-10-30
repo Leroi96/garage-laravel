@@ -40,8 +40,8 @@
 
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="date_reparation" class="form-label fw-bold">Date de Réparation</label>
-                    <input type="date" name="date_reparation" id="date_reparation" class="form-control" required>
+                    <label for="date" class="form-label fw-bold">Date de Réparation</label>
+                    <input type="date" name="date" id="date" class="form-control" required>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="duree" class="form-label fw-bold">Durée (en heures)</label>
@@ -50,8 +50,8 @@
             </div>
 
             <div class="mb-3">
-                <label for="objet" class="form-label fw-bold">Objet</label>
-                <input type="text" name="objet" id="objet" class="form-control" placeholder="Ex: Changement de pneus" required>
+                <label for="objet_reparation" class="form-label fw-bold">Objet</label>
+                <input type="text" name="objet_reparation" id="objet_reparation" class="form-control" placeholder="Ex: Changement de pneus" required>
             </div>
 
             <div class="text-center mt-4">
